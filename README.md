@@ -12,7 +12,9 @@ Outputs a chart showing who had the material advantage throughout the game
 Project structure
 
 chess-game-analyzer/
-│
+
+```text
+.
 ├── main.py          # Entry point — ties all modules together
 ├── load_pgn.py      # Loads a PGN file and returns a game object
 ├── parse_game.py    # Parses moves into a list of board states
@@ -20,6 +22,8 @@ chess-game-analyzer/
 ├── visualize.py     # Plots and saves the material balance chart
 ├── example.pgn      # Sample game to test with
 └── README.md
+```
+
 
 Requirements:
 
