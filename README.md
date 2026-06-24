@@ -80,10 +80,19 @@ Example output is shown in material_balance_plot.png:
 The chart is from a real 85-move game. 
 You can see white briefly winning material around move 11, the game staying roughly equal through the middlegame, and white pulling ahead decisively in the endgame.
 
-Planned improvements:
+Planned Improvements
 
+```text
+├── Stockfish integration
+│   └── Evaluate positions beyond simple material count
+│
+├── Automatic chart annotations
+│   └── Highlight key turning points and blunders
+│
+├── Multi-game PGN support
+│   └── Analyze all games contained in a single PGN file
+│
+└── Command-line arguments
+    └── Allow users to specify the PGN file path at runtime
+```
 
--Stockfish integration for position evaluation beyond material count
--Automatic annotation of key turning points on the chart
--Support for analyzing multiple games from a single PGN file
--Command-line argument for specifying the PGN file path
