@@ -77,8 +77,12 @@ Queen = 9
 After each move, white's total material minus black's total material is calculated. A positive value means white is ahead; a negative value means black is ahead.
 
 Example output is shown in material_balance_plot.png:
-The chart is from a real 85-move game. 
+The chart below is from a real 85-move game. 
 You can see white briefly winning material around move 11, the game staying roughly equal through the middlegame, and white pulling ahead decisively in the endgame.
+
+## Example Output
+
+![Material Balance Graph](material_balance_plot.png)
 
 Planned Improvements
 
