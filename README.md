@@ -31,7 +31,7 @@ Installation
 
 1. Clone the repository
 
-git clone https://github.com/your-username/chess-game-analyzer.git
+git clone https://github.com/csilega/chess-game-analyzer.git
 cd chess-game-analyzer
 
 2. Install dependencies
